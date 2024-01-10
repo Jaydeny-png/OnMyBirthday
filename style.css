@@ -1,0 +1,73 @@
+.bg-hero-image {
+    background-image: url('beethoven7_banner.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  body {
+    background-color: rgb(59, 59, 59);
+  }
+  
+  nav {
+    background-color: rgb(37, 37, 37);
+  }
+  
+  p {
+    font-family: 'Alkalami', serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mali', cursive;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  .custombutton {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #ced4da;
+  }
+  
+  .custombutton:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+  
+  .custombutton:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .custombutton:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  
+  footer {
+    position: relative;
+    margin-top: 130px;
+  }
+  
+  div.card {
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    }
+
