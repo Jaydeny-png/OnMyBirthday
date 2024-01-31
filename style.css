@@ -6,19 +6,31 @@ nav {
   background-color: rgb(34, 34, 34);
 }
 
+.line {
+  border: solid rgb(21, 150, 201) 4px;
+  opacity: 80%;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 .pic{
   border-radius: 10px;
 }
+
 .info{
   text-align: center;
   font-size: 1.3em;
 }
+
 .card {
   background-color: transparent;
   background-color:white;
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
+
 p.description{
   font-size: 1.2em;
   font-family: 'Alkalami', serif;
@@ -32,6 +44,7 @@ p.description{
   background-color: rgba(65, 118, 161, 0.425);
   border: 2px solid #858585;
 }
+
 .navbar-brand{
   font-weight: 400;
   font-style: normal;
@@ -40,7 +53,6 @@ p.description{
 footer {
   position: relative;
   margin-bottom: 130px;
-
 }
 
 #butt {
@@ -69,7 +81,6 @@ footer {
 #butt:hover:after {
   opacity: 1;
   right: 10px;
-
 }
 
 #butt:after {
