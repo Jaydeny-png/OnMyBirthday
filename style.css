@@ -1,64 +1,59 @@
 body {
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(70, 70, 70);
 }
-
-nav {
-  background-color: rgb(34, 34, 34);
+.navbar {
+  background-color: rgba(20, 20, 20, 0.788);
 }
-
+.container {
+  margin-top: 4em;
+}
+.birthday{
+  font-size: 3em;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    
+}
 .line {
-  border: solid rgb(21, 150, 201) 4px;
+  border: solid rgb(185, 185, 185) 4px;
   opacity: 80%;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
 
 }
-
 .pic{
   border-radius: 10px;
+  height: 300px;
 }
-
 .info{
   text-align: center;
   font-size: 1.3em;
 }
-
 .card {
   background-color: transparent;
   background-color:white;
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
-
 p.description{
   font-size: 1.2em;
-  font-family: 'Alkalami', serif;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-family: 'Lobster', cursive;
-  font-family: 'Mali', cursive;
-  font-family: 'Shadows Into Light', cursive;
-}
-
-.custombackground {
-  background-color: rgba(65, 118, 161, 0.425);
-  border: 2px solid #858585;
 }
 
 .navbar-brand{
+  font-size: 2.3em;
+  font-family: "Lemon", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-footer {
-  position: relative;
-  margin-bottom: 130px;
-}
 
-#butt {
-  min-width: 120px;
-  height: 60px;
-  color: #ffffff;
+/* CSS */
+.css-button-3d--sky {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
@@ -66,30 +61,18 @@ footer {
   position: relative;
   display: inline-block;
   outline: none;
-  overflow: hidden;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
-  background-color: #769dc5;
+  background: #536179;
+  box-shadow: 0 5px #161a1f;
 }
-
-#butt:hover {
-  border-radius: 5px;
-  padding-right: 24px;
-  padding-left: 8px;
+.css-button-3d--sky:hover {
+  box-shadow: 0 3px #9dabc2;
+  border: solid 2px #9dabc2;
+  color: ##9dabc2;
 }
-
-#butt:hover:after {
-  opacity: 1;
-  right: 10px;
-}
-
-#butt:after {
-  content: "\00BB";
-  position: absolute;
-  opacity: 0;
-  font-size: 20px;
-  line-height: 40px;
-  top: 0;
-  right: -20px;
-  transition: 0.4s;
+.css-button-3d--sky:active {
+  box-shadow: 0 0 #000000;
+  border: solid 2px #2b6cd4;
+  top: 5px;
 }

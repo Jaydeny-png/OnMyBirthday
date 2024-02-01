@@ -1,6 +1,6 @@
 function originalYear(){
     document.getElementById('diffImage').src = 'images/me.jpg'
-    document.getElementById('change-paragraph').innerText='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum dui faucibus in ornare quam viverra orci. Mauris pellentesque pulvinar pellentesque habitant morbi tristique.'
+    document.getElementById('change-paragraph').innerText='See that lil baby ghost? Thats me'
     document.getElementById('changeDate').innerText= 'October 20th, 2007'
 }
 function year1803(){
