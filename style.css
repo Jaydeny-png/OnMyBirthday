@@ -6,7 +6,7 @@ body {
   background-color: rgba(20, 20, 20, 0.788);
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 2.3em;
   font-family: "Lemon", serif;
   font-weight: 400;
@@ -17,21 +17,21 @@ body {
   margin-top: 4em;
 }
 
-.birthday{
+.birthday {
   font-size: 3em;
   text-align: center;
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
-    
+
 }
 
-.pic{
+.pic {
   border-radius: 10px;
   height: 300px;
 }
 
-.info{
+.info {
   text-align: center;
   font-size: 1.3em;
 }
@@ -46,11 +46,12 @@ body {
 
 .card {
   background-color: transparent;
-  background-color:white;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0,0,0,.5);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
 }
-p.description{
+
+p.description {
   font-size: 1.2em;
 }
 
@@ -71,11 +72,13 @@ p.description{
   background: #536179;
   box-shadow: 0 5px #161a1f;
 }
+
 .css-button-3d--sky:hover {
   box-shadow: 0 3px #9dabc2;
   border: solid 2px #9dabc2;
   color: ##9dabc2;
 }
+
 .css-button-3d--sky:active {
   box-shadow: 0 0 #000000;
   border: solid 2px #2b6cd4;
